@@ -1,0 +1,563 @@
+/* Estilo de fonte */
+@font-face {
+    font-family: "fonte GodOfWar";
+    src: url("../fonte/GODOFWAR.TTF");
+}
+
+@font-face{
+    font-family: "fonte grega";
+    src: url("../fonte/heorot.ttf");
+}
+
+body{
+    background-color:darkgray;
+}
+
+/* Links do início da página */
+
+.sticky{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.topoNav {
+    background-color: brown;
+    margin: 10px;
+    padding: 15px;
+    border: 5px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.topoLink {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 13px;
+    background-color: black;
+    border: 3px solid rgb(225, 191, 2);
+    border-radius: 5px;
+    font-family: "fonte GodOfWar";
+}
+
+.topoLink:hover {
+    background-color: rgb(29, 29, 29);
+    border: 3px solid rgb(202, 174, 17);
+    color: brown;
+}
+
+/* Botão de retorno ao início da página */
+.divBotaoInicio{
+    display: inline-block;
+    border-radius: 50px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+
+.aBotaoInicio{
+    width: 80px;
+}
+
+.divBotaoInicio:hover{
+    background-color:rgb(140, 132, 132) ;
+}
+
+/* Primeira imagem: Logo */
+
+.sectionLogo {
+    text-align: center;
+    display: inline;
+    width: 100px;
+}
+
+.imgLogo{
+    width: 200px;
+}
+
+/* Cabeçalho h1 meu God of War */
+
+.sectionH1 {
+    display: inline-block;
+    width: 50%;
+    font-family: "fonte GodOfWar";
+    text-align: center;
+    background-image: url("../imagem/United-cutlery-blade-of-chaos.webp");
+    background-size: contain;
+    color: brown;
+    margin: 10px;
+    border: 5px solid rgb(202, 174, 17);
+    background-color: black;
+    border-radius: 10px;
+}
+
+.h1 {
+    font-size: 25px;
+    display: inline-block;
+    padding: 5px;
+    background-color: black;
+}
+
+.h1:hover {
+    background-color: rgb(29, 29, 29);
+    color: white;
+}
+
+/* Cabeçalho h2 empresa desenvolvedora */
+
+.divH2 {
+    margin: 10px;
+    width: 45%;
+}
+
+.h2 {
+    font-size: 25px;
+    padding: 5px;
+    font-family: "fonte GodOfWar";
+    word-spacing: 10px;
+    color: rgb(202, 174, 17);
+    border: 5px solid rgb(202, 174, 17);
+    border-radius: 10px;
+    background-color: black;
+
+}
+
+.h2:hover{
+    color: brown;
+    background-color: rgb(29, 29, 29);
+}
+
+/* Cabeçalho h3 Santa Monica Studio */
+
+.divH3 {
+    color: brown;
+    margin:10px;
+    width: 14%;
+}
+
+.h3{
+    font-size: 25px;
+    padding: 5px;
+    font-family: "fonte grega";
+    background-color: black;
+    border: 5px solid rgb(202, 174, 17);
+    border-radius: 10px;
+}
+
+.h3:hover{
+    font-family: "fonte GodOfWar";
+    background-color: rgb(29, 29, 29);
+}
+
+/* Primeiro texto */
+
+.sectionP1{
+    display: inline-block;
+    line-height: 35px;
+    width: 40%;
+}
+
+.pP1 {
+    border-radius: 5px;
+    display: inline-block;
+    color:brown ;
+    margin: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: -80px;
+    border:  5px solid black;
+}
+
+/* Segunda imagem: Kratos modo fúria de esparta */
+
+.div3{
+    text-align: right;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.imgAside{ 
+    width: 700px;
+    margin: 90px;
+    text-align: right;
+    border: 5px solid black;
+    position: relative;
+    bottom: 60px;
+}
+
+.imgAside:hover{
+    border: 5px solid brown;
+}
+
+/* Cabeçalho h2 jogos da saga principal */
+
+.divh2jogos{
+    margin: 10px;
+    width: 45%;
+}
+
+#jogosh2{
+    font-size: 25px;
+    padding: 5px;
+    font-family: "fonte GodOfWar";
+    word-spacing: 10px;
+    color: rgb(202, 174, 17);
+    border: 5px solid rgb(202, 174, 17);
+    border-radius: 10px;
+    background-color: black;
+}
+
+#jogosh2:hover{
+    color: brown;
+    background-color: rgb(29, 29, 29);
+}
+
+/* cabeçalho h3 God of War 1 */
+
+.divh3g1{
+    color: brown;
+    margin:10px;
+    width: 14%;
+}
+
+.h3g1{
+    font-size: 25px;
+    padding: 5px;
+    font-family: "fonte GodOfWar";
+    background-color: black;
+    border: 5px solid rgb(202, 174, 17);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.h3g1:hover{
+    background-color: rgb(29, 29, 29);
+}
+
+/* Primeiro parágrafo após h2 jogos da saga principal */
+
+.imagemJogos, .divgow1{
+    display: inline-block;
+    margin: 1px 100px 10px 10px;
+    line-height: 40px;
+}
+
+.divImagemJogos{
+    color:brown ;
+    margin: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width:100%;
+    display: inline-block;
+    border: 5px solid black;
+    border-radius: 5px;
+    position: relative;
+    bottom: 300px;
+}
+
+.imagemJogos{
+    width: 40% ;
+}
+
+/* Imagem capa God of War1 */
+
+.divgow1{
+    text-align: right;
+    background-position: bottom;
+    border-radius: 5px;
+}
+
+.imggow1{
+    width: 300px;
+    margin: 10px;
+    text-align: right;
+    border: 5px solid;
+}
+
+.imggow1:hover{
+    border: 5px solid brown ;
+}
+
+/* Cabeçalho h3 God of War 2 */
+
+.divh3g2{
+    color: brown;
+    margin:10px;
+    width: 14%;
+}
+
+.h3g2{
+    font-size: 25px;
+    padding: 5px;
+    font-family: "fonte GodOfWar";
+    background-color: black;
+    border: 5px solid rgb(202, 174, 17);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.h3g2:hover{
+    background-color: rgb(29, 29, 29);
+}
+
+/* Segundo parágrafo após h2 jogos da saga principal */
+
+.sectioSegundop{
+    display: inline;
+    margin: 1px 100px 10px 10px;
+    line-height: 40px; 
+}
+
+.divSegundop{
+    color:brown ;
+    margin: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width:39.5%;   
+    display: inline-block;
+    position: relative;
+    bottom: 300px;
+}
+
+.pSegundop{
+    width: 100%;
+    display: inline-block;
+    border: 5px solid black;
+    border-radius: 5px; 
+}
+
+/* Imagem capa God of War 2 */
+
+.divgow2{
+    text-align: right;
+    background-position: bottom;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.imggow2{
+    width: 300px;
+    margin: 10px;
+    text-align: right;
+    border: 5px solid;
+}
+
+.imggow2:hover{
+    border: 5px solid brown ;
+}
+
+/* Cabeçalho h3 God of War 3 */
+
+.divh3g3{
+    color: brown;
+    margin:10px;
+    width: 14%;
+}
+
+.h3g3{
+    font-size: 25px;
+    padding: 5px;
+    font-family: "fonte GodOfWar";
+    background-color: black;
+    border: 5px solid rgb(202, 174, 17);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.h3g3:hover{
+    background-color: rgb(29, 29, 29);
+}
+
+/* Terceiro parágrafo após h2 jogos da saga principal */
+
+.sectionTerceirop{
+    display: inline;
+    margin: 1px 100px 10px 10px;
+    line-height: 40px; 
+}
+
+.divTerceirop{
+    color:brown ;
+    margin: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width:39.5%;   
+    display: inline-block;
+    position: relative;
+    bottom: 200px;
+}
+
+.pTerceirop{
+    width: 100%;
+    display: inline-block;
+    border: 5px solid black;
+    border-radius: 5px; 
+}
+
+/* Imagem capa God of War 3 */
+
+.divgow3{
+    text-align: right;
+    background-position: bottom;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.imggow3{
+    width: 300px;
+    margin: 10px;
+    text-align: right;
+    border: 5px solid black;
+}
+
+.imggow3:hover{
+    border: 5px solid brown ;
+}
+
+/* Cabeçalho h3 God of War 4 */
+
+.divh3g4{
+    color: brown;
+    margin:10px;
+    width: 14%;
+}
+
+.h3g4{
+    font-size: 25px;
+    padding: 5px;
+    font-family: "fonte GodOfWar";
+    background-color: black;
+    border: 5px solid rgb(202, 174, 17);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.h3g4:hover{
+    background-color: rgb(29, 29, 29);
+}
+
+/* Quarto parágrafo após h2 jogos da saga principal */
+
+.sectionQuartop{
+    display: inline;
+    margin: 1px 100px 10px 10px;
+    line-height: 40px; 
+}
+
+.divQuartop{
+    color:brown ;
+    margin: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width:39.5%;   
+    display: inline-block;
+    position: relative;
+    bottom: 200px;
+}
+
+.pQuartop{
+    width: 100%;
+    display: inline-block;
+    border: 5px solid black;
+    border-radius: 5px; 
+}
+
+/* Imagem capa God of War 4 */
+
+.divgow4{
+    text-align: right;
+    background-position: bottom;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.imggow4{
+    width: 300px;
+    margin: 10px;
+    text-align: right;
+    border: 5px solid;
+}
+
+.imggow4:hover{
+    border: 5px solid rgb(56, 115, 138);
+}
+
+/* Cabeçalho h2 próximos lançamentos */
+
+.divh2ProximosLancamentos{
+    margin: 10px;
+    width: 45%;
+}
+
+.h2ProximosLancamentos{
+    font-size: 25px;
+    padding: 5px;
+    font-family: "fonte GodOfWar";
+    word-spacing: 10px;
+    color: rgb(202, 174, 17);
+    border: 5px solid rgb(202, 174, 17);
+    border-radius: 10px;
+    background-color: black;
+}
+
+.h2ProximosLancamentos:hover{
+    color: brown;
+    background-color: rgb(29, 29, 29);
+}
+
+/* Cabeçalho h3 God of War Raknarok */
+
+.divh3Ragnarok{
+    color: rgb(56, 115, 138);
+    margin:10px;
+    width: 14%;
+}
+
+.h3Ragnarok{
+    font-size: 25px;
+    padding: 5px;
+    font-family: "fonte GodOfWar";
+    background-color: black;
+    border: 5px solid rgb(202, 174, 17);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.h3Ragnarok:hover{
+    background-color: rgb(29, 29, 29);
+}
+
+/* Lista não ordenada */
+
+.ul{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li{
+    display: inline-block;
+    padding: 5px;
+    border: 5px solid rgb(202, 174, 17);
+    background-color: black;
+    margin: 2px;
+    font-family: "fonte GodOfWar";
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+li:hover{
+    background-color: rgb(29, 29, 29);
+}
+
+.linkYout{
+    color: white;
+}
+/* Última imagem */
+
+.sectionUltimaImagem{
+    text-align: center;
+}
+
